@@ -1,0 +1,1 @@
+# ccm-deploy-alertas-zabbix
