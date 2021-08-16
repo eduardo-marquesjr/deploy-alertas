@@ -3,8 +3,6 @@ from flask import Flask, jsonify, render_template, request, redirect, url_for
 import mysql.connector
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 import warnings
 import time
 import datetime as dt
@@ -12,8 +10,7 @@ import statsmodels.tsa.api as smtsa
 from statsmodels.tsa.stattools import adfuller
 from pmdarima.arima.utils import ndiffs
 from statsmodels.tsa.arima_model import ARIMA
-import itertools
-import statsmodels.api as sm
+import statsmodels.api as sm 
 warnings.filterwarnings('ignore')
 
 mydb = mysql.connector.connect(

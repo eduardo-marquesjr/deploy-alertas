@@ -23,4 +23,5 @@ yfinance==0.1.59
 google-cloud-bigquery
 pyarrow
 mysql-connector
-
+statsmodels
+pmdarima
