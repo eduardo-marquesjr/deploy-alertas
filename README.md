@@ -1,2 +1,2 @@
-# ccm-deploy-alertas-zabbix
+# deploy-alertas
 # branch:main
