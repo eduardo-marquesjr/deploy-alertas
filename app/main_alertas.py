@@ -13,14 +13,6 @@ from statsmodels.tsa.arima_model import ARIMA
 import statsmodels.api as sm 
 warnings.filterwarnings('ignore')
 
-mydb = mysql.connector.connect(
-    host="10.11.36.1",
-    port="3306", 
-    user = 'emjunior',
-    passwd = 'sIxg5LAHbH4la3bkwE49',
-    database="zabbix"
-) 
-
 mycursor = mydb.cursor() 
  
 def get_tabela(nome_tabela, coluna_ordem, limite_linhas = 500):
